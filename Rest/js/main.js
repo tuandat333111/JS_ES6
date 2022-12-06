@@ -5,8 +5,6 @@ const calAverage=(...numbers)=>{
     return average;
 }
 const getEle=(id)=>document.getElementById(id);
-
-calAverage(1,2,3);
 getEle("btnKhoi1").addEventListener("click",()=>{
     let toan=getEle("inpToan").value*1;
     let ly=getEle("inpLy").value*1;
